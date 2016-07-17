@@ -9,10 +9,10 @@ func Solution(A []int, K int) []int {
 
     rotation := Rotation(K, arrayLength)
 
-    beginning := A[(arrayLength - rotation):]
-    ending := A[:(arrayLength - rotation)]
+    begin := A[(arrayLength - rotation):]
+    end := A[:(arrayLength - rotation)]
 
-    rotatedArray := append(beginning, ending...)
+    rotatedArray := append(begin, end...)
 
     return rotatedArray
 }

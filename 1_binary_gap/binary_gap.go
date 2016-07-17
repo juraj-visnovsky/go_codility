@@ -1,12 +1,10 @@
 package codility
 
-// import "fmt"
 import "strings"
 import "strconv"
 
 func Solution(N int) int {
   binary := strconv.FormatInt(int64(N), 2)
-  // fmt.Println(N, binary)
 
   maxGapLength := 0
 
