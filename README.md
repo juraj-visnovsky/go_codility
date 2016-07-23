@@ -1,1 +1,1 @@
-My solutions to problems taken taken from https://codility.com/programmers/lessons/ (written in Go).
+My solutions to problems from https://codility.com/programmers/lessons/ (written in Go).
