@@ -35,7 +35,7 @@ func TestMin(t *testing.T) {
     result := Min(c.inputL, c.inputR)
 
     if result != c.output {
-      t.Errorf("Solution(%v, %v) == %v, should be %v", c.inputL, c.inputR, result, c.output)
+      t.Errorf("Min(%v, %v) == %v, should be %v", c.inputL, c.inputR, result, c.output)
     }
   }
 }
@@ -53,7 +53,7 @@ func TestAbs(t *testing.T) {
     result := Abs(c.input)
 
     if result != c.output {
-      t.Errorf("Solution(%v) == %v, should be %v", c.input, result, c.output)
+      t.Errorf("Abs(%v) == %v, should be %v", c.input, result, c.output)
     }
   }
 }
